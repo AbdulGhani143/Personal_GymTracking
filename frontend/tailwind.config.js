@@ -1,0 +1,72 @@
+export default {
+    darkMode: "class",
+    content: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+        extend: {
+            "colors": {
+                "on-secondary": "#182f59",
+                "primary": "#adc6ff",
+                "on-background": "#e4e1e9",
+                "surface-container-low": "#1b1b20",
+                "error-container": "#93000a",
+                "surface-container-high": "#2a292f",
+                "tertiary-fixed": "#ffdcc6",
+                "on-secondary-container": "#9fb5e7",
+                "surface-tint": "#adc6ff",
+                "tertiary": "#ffb786",
+                "primary-container": "#4d8eff",
+                "tertiary-fixed-dim": "#ffb786",
+                "secondary-fixed": "#d8e2ff",
+                "surface-container": "#1f1f25",
+                "on-primary-container": "#00285d",
+                "secondary": "#b1c6f9",
+                "surface-dim": "#131318",
+                "surface-bright": "#39383e",
+                "outline-variant": "#424754",
+                "on-error-container": "#ffdad6",
+                "on-error": "#690005",
+                "secondary-fixed-dim": "#b1c6f9",
+                "error": "#ffb4ab",
+                "tertiary-container": "#df7412",
+                "primary-fixed-dim": "#adc6ff",
+                "on-secondary-fixed": "#001a42",
+                "on-surface": "#e4e1e9",
+                "on-surface-variant": "#c2c6d6",
+                "on-tertiary-fixed": "#311400",
+                "on-primary": "#002e6a",
+                "primary-fixed": "#d8e2ff",
+                "surface-container-lowest": "#0e0e13",
+                "inverse-surface": "#e4e1e9",
+                "surface-variant": "#35343a",
+                "on-tertiary-container": "#461f00",
+                "inverse-primary": "#005ac2",
+                "on-primary-fixed": "#001a42",
+                "background": "#131318",
+                "outline": "#8c909f",
+                "on-primary-fixed-variant": "#004395",
+                "surface": "#131318",
+                "on-tertiary-fixed-variant": "#723600",
+                "secondary-container": "#304671",
+                "on-tertiary": "#502400",
+                "surface-container-highest": "#35343a",
+                "on-secondary-fixed-variant": "#304671",
+                "inverse-on-surface": "#303036"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+            "fontFamily": {
+                "headline": ["Space Grotesk"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+            }
+        }
+    },
+    plugins: [],
+}
